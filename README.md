@@ -29,5 +29,5 @@ volumes:
 
 Until Docker Hub starts to support automatic Windows builds, use the following procedure:
 
-* `docker build . -t cmeeren/redis-windows:TAGNAME` (or other desired tag)
+* `docker build . -t cmeeren/redis-windows:TAGNAME`
 * `docker push cmeeren/redis-windows:TAGNAME`
